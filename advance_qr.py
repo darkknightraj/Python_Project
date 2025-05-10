@@ -14,5 +14,5 @@ qr.make(fit=True)
 # it will automatically increase the version internally if needed,
 # so the data fits properly.
 img = qr.make_image(fill_color="purple", back_color="cyan")
-#img.save('github_qr.png')
+img.save('github_qr.png')
 img.show()  
