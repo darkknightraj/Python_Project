@@ -4,7 +4,7 @@ from PIL import Image
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
-    box_size=13,
+    box_size=12,
     border=2,
 )
 qr_url = input("Enter the URL: ")
